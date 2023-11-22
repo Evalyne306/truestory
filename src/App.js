@@ -7,12 +7,15 @@ import Download from './Download';
 import Navbar from './Navbar';
 import FamilyTree from './FamilyTree';
 
+
+
 function App() {
   return (
     <div className="App">
    <Navbar/>
 <Home/>
 <AboutUs/>
+
 <GetStarted/>
 <FamilyTree/>
 <Download/>

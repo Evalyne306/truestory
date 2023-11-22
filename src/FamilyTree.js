@@ -1,5 +1,5 @@
 import React from "react";
-import family from '/home/student/Begin/truestory/src/images/phone4 (25).png';
+import family from '/home/student/Begin/truestory/src/images/slide2.png';
 import './FamilyTree.css';
 
 

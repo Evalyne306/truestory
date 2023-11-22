@@ -1,6 +1,6 @@
 import React from "react";
 // import picture from '/home/student/true-story-app/src/images/phone.png';
-import picture from '/home/student/Begin/truestory/src/images/phone4 (9).png';
+import picture from '/home/student/Begin/truestory/src/images/aboutimage.png';
 import './AboutUs.css';
 
 

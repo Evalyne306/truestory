@@ -1,5 +1,5 @@
 import React from "react";
-import demo1 from '/home/student/Begin/truestory/src/videos/getstarted1 (5).mp4';
+import demo1 from '/home/student/Begin/truestory/src/videos/getstrd.mp4';
 import './GetStarted.css'
 
 
