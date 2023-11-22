@@ -1,0 +1,35 @@
+/* Navbar.css */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* background-color: rgba(115, 82, 64, 0.5);  */
+    padding: 4px;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    
+  }
+  
+  .navbar-left,
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    color: #F4F0EC;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 15px;
+    border-radius: 30px; /* Set border-radius for a capsule shape */
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* White transparent color on hover */
+  }

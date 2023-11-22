@@ -1,0 +1,12 @@
+.image-placeholder {
+    max-width: 100%; /* This ensures the image won't exceed the width of its container */
+    margin: 0 auto;  /* Center the image within its container horizontally */
+    /* Add any other styling you need */
+    margin-bottom: 10px;
+  }
+  
+  .image-placeholder img {
+    width: 100%; /* Ensures the image takes up 100% of the width of its container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    display: block; /* Removes any extra space beneath the image */
+  }
