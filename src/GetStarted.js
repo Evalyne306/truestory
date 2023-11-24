@@ -138,7 +138,7 @@ const GetStarted = () => {
   return (
     <div className='landing-page' id='events'>
       <div className='card-container'>
-        <Slide easing="ease" pauseOnHover={true} slidesToShow={1} transitionDuration={1000}>
+        <Slide easing="ease" pauseOnHover={true} slidesToShow={1} transitionDuration={2000}>
           {slideVideos.map((video, index) => (
             <div className='cardi' key={index}>
               <video controls autoPlay muted width="100%" height="auto">
