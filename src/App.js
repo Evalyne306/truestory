@@ -17,8 +17,9 @@ function App() {
 <AboutUs/>
 
 <GetStarted/>
-<FamilyTree/>
 <Download/>
+<FamilyTree/>
+
 <ContactUs/>
     </div>
   );

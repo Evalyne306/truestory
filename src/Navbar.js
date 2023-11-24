@@ -22,7 +22,7 @@ function Navbar() {
         <a href="#events" className="navbar-link">
         Events
         </a>
-        <a href="#download" className="navbar-link">
+        <a href="#downloads" className="navbar-link">
           Downloads
         </a>
         <a href="#contactUs" className="navbar-link">
