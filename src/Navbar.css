@@ -55,10 +55,10 @@
   }
   
   .navbar-link {
-    color: #F4F0EC;
+    color: white;
     text-decoration: none;
     margin: 0 10px; /* Adjust margin for better spacing */
-    padding: 10px 15px;
+    padding: 10px ;
     border-radius: 30px;
     transition: background-color 0.3s ease;
     font-weight: bold; /* Make the font bold */
@@ -70,19 +70,40 @@
   
   @media screen and (max-width: 768px) {
     /* Add responsive styles for smaller screens */
-    .navbar {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .navbar-left,
-    .navbar-right {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .navbar-link {
-      margin: 5px 0; /* Adjust margin for better spacing on smaller screens */
-    }
+
+ 
+
+  .navbar {
+    flex-direction: row; /* Keep items in a row */
+    justify-content: flex-end; /* Center the links */
+    align-items: flex-end;
+    flex-wrap: wrap; /* Allow links to wrap to the next line if necessary */
+    font-size: 9px;
+    display: flex;
   }
+
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px; /* Adjust margin for better spacing */
+    padding: 3px ;
+    margin: 0px 1px 3px 0; 
+    border-radius: 30px;
+    font-weight: bold; /* Make the font bold */
+    font-size: 8.2px;
+   
+   
+  }
+  }
+
+  /*
+  bootstrap styling
+  */
+  .nav-link {
+    color: #ffffff; /* Bright white color */
+    font-weight: bold;
+    font-size: 12px; /* Adjust the font size as needed */
+  }
+
+
+  

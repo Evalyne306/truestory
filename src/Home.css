@@ -10,13 +10,18 @@ body, html {
     height: 100vh;
     overflow: auto;
   } */
-  
   #background-video {
-  
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    object-fit: fill;
-   
+    height: 100vh;
+    object-fit: cover; /* This will maintain the aspect ratio and cover the entire container */
+  }
+  
+  /* Media query for screens smaller than 768px (typical mobile devices) */
+  @media (max-width: 768px) {
+    #background-video {
+      width: 100%; /* Adjusting the width for smaller screens */
+      height: auto; /* Allow the video to scale with the width without distorting */
+    }
   }

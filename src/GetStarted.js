@@ -27,124 +27,76 @@
 
 // export default GetStarted;
 
-// import 'react-slideshow-image/dist/styles.css';
-// import "./App.css";
-// import React from 'react';
-// import { Slide } from 'react-slideshow-image';
-
-// import image1 from './images/image1.jpg';
-// import image2 from './images/image2.jpg';
-
-// const slideImages = [
-//   {
-//     path: image1,
-//     name: 'Womens Sundress',
-//     description: 'Romwe Womens Long Sleeve sundress'
-//   },
-//   {
-//     path: image2,
-//     name: 'Waterproof Bluetooth',
-//     description: 'Smart Watch for Men Women Compatible with iPhone Samsung Android Phone'
-//   },
-//   // Add more objects with local image paths for other slides
-// ];
-
-// const GetStarted = () => {
-//   return (
-//     <div className='landing-page' id='events'>
-//       <div className='about-section'>
-//         <div className='container'>
-//           {/* Add any content for about-section here if needed */}
-//         </div>
-//       </div>
-
-//       <div className='card-container'>
-//         <Slide easing="ease" pauseOnHover={true} slidesToShow={1} transitionDuration={1000}>
-//           {slideImages.map((image, index) => (
-//             <div className='cardi' key={index}>
-//               <img src={image.path} alt='Product' />
-//               <h3>{image.name}</h3>
-//               <p>{image.description}</p>
-//             </div>
-//           ))}
-//         </Slide>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default GetStarted;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import 'react-slideshow-image/dist/styles.css';
 import "./App.css";
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 
-import video1 from '/home/student/Begin/truestory/src/videos/2.mp4';
-import video2 from '/home/student/Begin/truestory/src/videos/3.mp4';
-import video3 from '/home/student/Begin/truestory/src/videos/4.mp4';
-import video4 from '/home/student/Begin/truestory/src/videos/5.mp4';
-import video5 from '/home/student/Begin/truestory/src/videos/6.mp4';
-import video6 from '/home/student/Begin/truestory/src/videos/7.mp4';
-import video7 from '/home/student/Begin/truestory/src/videos/8.mp4';
-import video8 from '/home/student/Begin/truestory/src/videos/9.mp4';
+
+import image2 from '/home/student/Begin/truestory/src/images/3.png';
+import image3 from '/home/student/Begin/truestory/src/images/4.png';
+import image4 from '/home/student/Begin/truestory/src/images/5.png';
+import image5 from '/home/student/Begin/truestory/src/images/6.png';
+import image6 from '/home/student/Begin/truestory/src/images/7.png';
+import image7 from '/home/student/Begin/truestory/src/images/8.png';
+import image8 from '/home/student/Begin/truestory/src/images/9.png';
+import image9 from '/home/student/Begin/truestory/src/images/10.png';
 
 
-const slideVideos = [
+const slideImages = [
+
   {
-    path: video1,
-  },
-  {
-    path: video2,
-  },
-  {
-    path: video3,
-  },
-  {
-    path: video4,
-  },
-  {
-    path: video5,
-  },
-  {
-    path: video6,
-  },
-  {
-    path: video7,
-  },
-  {
-    path: video8,
-  },
- 
+    path: image2,
   
-  // Add more objects with local video paths for other slides
+  },
+  {
+    path: image3,
+ 
+  },
+  {
+    path: image4,
+  
+  },
+  {
+    path: image5,
+ 
+  },
+  {
+    path: image6,
+  
+  },
+  {
+    path: image7,
+ 
+  },
+  {
+    path: image8,
+  
+  },
+  {
+    path: image9,
+ 
+  },
+
+ 
+  // Add more objects with local image paths for other slides
 ];
 
 const GetStarted = () => {
   return (
     <div className='landing-page' id='events'>
+      <div className='about-section'>
+        <div className='container'>
+          {/* Add any content for about-section here if needed */}
+        </div>
+      </div>
+
       <div className='card-container'>
-        <Slide easing="ease" pauseOnHover={true} slidesToShow={1} transitionDuration={2000}>
-          {slideVideos.map((video, index) => (
+        <Slide easing="ease" pauseOnHover={true} slidesToShow={1} transitionDuration={1000}>
+          {slideImages.map((image, index) => (
             <div className='cardi' key={index}>
-              <video controls autoPlay muted width="100%" height="auto">
-                <source src={video.path} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+              <img src={image.path} alt='Product' />
+        
             </div>
           ))}
         </Slide>
@@ -154,3 +106,83 @@ const GetStarted = () => {
 };
 
 export default GetStarted;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import 'react-slideshow-image/dist/styles.css';
+// import "./App.css";
+// import React from 'react';
+// import { Slide } from 'react-slideshow-image';
+
+// import video1 from '/home/student/Begin/truestory/src/videos/one.mp4';
+// import video2 from '/home/student/Begin/truestory/src/videos/two.mp4';
+// import video3 from '/home/student/Begin/truestory/src/videos/three.mp4';
+// import video4 from '/home/student/Begin/truestory/src/videos/four.mp4';
+// import video5 from '/home/student/Begin/truestory/src/videos/five.mp4';
+// import video6 from '/home/student/Begin/truestory/src/videos/six.mp4';
+// import video7 from '/home/student/Begin/truestory/src/videos/seven.mp4';
+// import video8 from '/home/student/Begin/truestory/src/videos/eight.mp4';
+
+
+// const slideVideos = [
+//   {
+//     path: video1,
+//   },
+//   {
+//     path: video2,
+//   },
+//   {
+//     path: video3,
+//   },
+//   {
+//     path: video4,
+//   },
+//   {
+//     path: video5,
+//   },
+//   {
+//     path: video6,
+//   },
+//   {
+//     path: video7,
+//   },
+//   {
+//     path: video8,
+//   },
+ 
+  
+//   // Add more objects with local video paths for other slides
+// ];
+
+// const GetStarted = () => {
+//   return (
+//     <div className='landing-page' id='events'>
+//       <div className='card-container'>
+//         <Slide easing="ease" pauseOnHover={true} slidesToShow={1} transitionDuration={2000}>
+//           {slideVideos.map((video, index) => (
+//             <div className='cardi' key={index}>
+//               <video controls autoPlay muted width="100%" height="auto">
+//                 <source src={video.path} type="video/mp4" />
+//                 Your browser does not support the video tag.
+//               </video>
+//             </div>
+//           ))}
+//         </Slide>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default GetStarted;

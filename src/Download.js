@@ -19,30 +19,26 @@
 //   }
 // export default Download;
 import React from "react";
-import video2 from '/home/student/Begin/truestory/src/videos/downloads (1).mp4';
+// import picture from '/home/student/true-story-app/src/images/phone.png';
+import picture1 from '/home/student/Begin/truestory/src/images/click.png';
+
 import './Download.css'
 
 
 
 
 function Download() {
-  return (
-    <div className="family-page" id="downloads">
-      <div>
-      <video autoPlay muted loop id="background-video">
-        <source src={video2} />
-      </video>
-      </div>
-     
 
-      <div className="overlay">
-     
-   
-     
-      </div>
-     
+  return(
+
+    <div className="image-placeholder" id="download">
+    <img src={picture1} alt="placeholder" />
+    
     </div>
-  );
-}
+    
+    
+    );
+    
+    }
 
 export default Download;
