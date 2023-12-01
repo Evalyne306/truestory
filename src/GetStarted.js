@@ -28,7 +28,7 @@
 // export default GetStarted;
 
 import 'react-slideshow-image/dist/styles.css';
-import "./App.css";
+import "./GetStarted.css";
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 
@@ -85,11 +85,7 @@ const slideImages = [
 const GetStarted = () => {
   return (
     <div className='landing-page' id='events'>
-      <div className='about-section'>
-        <div className='container'>
-          {/* Add any content for about-section here if needed */}
-        </div>
-      </div>
+
 
       <div className='card-container'>
         <Slide easing="ease" pauseOnHover={true} slidesToShow={1} transitionDuration={1000}>

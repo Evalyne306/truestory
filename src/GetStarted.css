@@ -1,0 +1,23 @@
+
+.card-container {
+    width: 100%;
+    max-width: 800px; /* Adjust the maximum width as needed for larger screens */
+    margin: auto;
+  }
+  
+  .cardi {
+    width: 100%;
+  }
+  
+  .cardi img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Media query for mobile view */
+  @media only screen and (max-width: 600px) {
+    .card-container {
+      max-width: 100%;
+    }
+  }

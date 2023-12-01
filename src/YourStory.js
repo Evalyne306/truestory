@@ -17,27 +17,51 @@
 //       );
 //     }
 // export default YourStory
+
+
+
+// import React from "react";
+// // import picture from '/home/student/true-story-app/src/images/phone.png';
+// import picture1 from '/home/student/Begin/truestory/src/images/page.png';
+
+// import './YourStory.css'
+
+
+
+
+// function YourStory() {
+
+//   return(
+
+//     <div className="image-placeholder" id="your-story">
+//     <img src={picture1} alt="placeholder" />
+    
+//     </div>
+    
+    
+//     );
+    
+//     }
+
+// export default YourStory;
+
 import React from "react";
 // import picture from '/home/student/true-story-app/src/images/phone.png';
-import picture1 from '/home/student/Begin/truestory/src/images/page.png';
-
-import './YourStory.css'
-
+import picture4 from '/home/student/Begin/truestory/src/images/storo.png';
+import './YourStory.css';
 
 
+function YourStory(){
 
-function YourStory() {
+return(
 
-  return(
+<div className="image-placehold" id="your-story">
+<img src={picture4} alt="placeholder" />
 
-    <div className="image-placeholder" id="your-story">
-    <img src={picture1} alt="placeholder" />
-    
-    </div>
-    
-    
-    );
-    
-    }
+</div>
 
+
+);
+
+}
 export default YourStory;
