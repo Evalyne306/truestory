@@ -33,14 +33,14 @@ import React from 'react';
 import { Slide } from 'react-slideshow-image';
 
 
-import image2 from '/home/student/Begin/truestory/src/images/3.png';
-import image3 from '/home/student/Begin/truestory/src/images/4.png';
-import image4 from '/home/student/Begin/truestory/src/images/5.png';
-import image5 from '/home/student/Begin/truestory/src/images/6.png';
-import image6 from '/home/student/Begin/truestory/src/images/7.png';
-import image7 from '/home/student/Begin/truestory/src/images/8.png';
-import image8 from '/home/student/Begin/truestory/src/images/9.png';
-import image9 from '/home/student/Begin/truestory/src/images/10.png';
+import image2 from '/home/student/Begin/truestory/src/videos/30.mp4';
+import image3 from '/home/student/Begin/truestory/src/images/40.png';
+import image4 from '/home/student/Begin/truestory/src/images/50.png';
+import image5 from '/home/student/Begin/truestory/src/images/60.png';
+import image6 from '/home/student/Begin/truestory/src/images/70.png';
+import image7 from '/home/student/Begin/truestory/src/images/80.png';
+import image8 from '/home/student/Begin/truestory/src/images/90.png';
+import image9 from '/home/student/Begin/truestory/src/images/100.png';
 
 
 const slideImages = [

@@ -1,5 +1,5 @@
 import React from "react";
-import video2 from '/home/student/Begin/truestory/src/videos/downloadimg.mp4';
+import video2 from '/home/student/Begin/truestory/src/images/family.png';
 import './FamilyTree.css'
 
 

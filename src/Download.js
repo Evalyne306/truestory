@@ -55,7 +55,7 @@
 
 
 import React from "react";
-import picture1 from '/home/student/Begin/truestory/src/images/slide2.png';
+import picture1 from '/home/student/Begin/truestory/src/images/here.png';
 import firstButtonImage from '/home/student/Begin/truestory/src/images/pic__1_-removebg-preview.png';
 import secondButtonImage from '/home/student/Begin/truestory/src/images/pic-removebg-preview.png';
 import './Download.css';
