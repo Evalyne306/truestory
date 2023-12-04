@@ -29,7 +29,7 @@
 import React from "react";
 // import picture from '/home/student/true-story-app/src/images/phone.png';
 import picture1 from '/home/student/Begin/truestory/src/images/family.png';
-import './ContactUs.css';
+import './FamilyTree.css';
 
 
 function FamilyTree(){
