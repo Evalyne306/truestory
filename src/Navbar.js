@@ -77,7 +77,7 @@ function Navbar() {
         How It Works
         </a>
         <a href="#download" className="navbar-link">
-          Downloads
+          Download
         </a>
         <a href="#your-story" className="navbar-link">
         Your Story
