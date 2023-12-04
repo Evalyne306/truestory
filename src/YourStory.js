@@ -47,7 +47,7 @@
 
 import React from "react";
 // import picture from '/home/student/true-story-app/src/images/phone.png';
-import picture4 from '/home/student/Begin/truestory/src/images/form4.png';
+import picture4 from '/home/student/Begin/truestory/src/images/storytelling.png';
 import './YourStory.css';
 
 
